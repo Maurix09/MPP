@@ -1,0 +1,25 @@
+{
+    "version": "1",
+    "information": {
+        "name": "mpp_mi_primer_plugin",
+        "displayName": "MPP",
+        "description": "Description of your plugin",
+        "version": "0.0.1",
+        "ucrmVersionCompliancy": {
+            "min": "2.14.0",
+            "max": null
+        },
+        "unmsVersionCompliancy": {
+           "min": "1.1.6",
+           "max": null
+        },
+        "author": "Mauricio Fernandez"
+    },
+    "menu": [
+        {
+            "label": "Mis trabajos",
+            "type": "admin",
+            "target": "iframe"
+        }
+    ]
+}
